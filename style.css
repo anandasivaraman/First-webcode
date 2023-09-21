@@ -1,0 +1,46 @@
+.container-fluid {
+    text-align: center;
+    background-color: red; /* Marvel red */
+    height: 30%;
+    padding-left: 5px;
+    color: white; /* Contrast with red */
+    font-family: "Bangers", cursive; /* Comic-like font */
+    background-image: linear-gradient(to left, red, blue); /* Red to blue gradient */
+}
+
+.result {
+    display: none;
+    background-image: linear-gradient(to left, #001f3f, #FF4136); /* Blue to red gradient */
+}
+
+#btn {
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif; /* Clean font */
+    background-image: linear-gradient(to left, #0074D9, #FFDC00); /* Blue to yellow gradient */
+}
+
+#resetbtn {
+    height: 30px;
+    border-radius: 5px;
+    background-image: linear-gradient(to left, #FF4136, #FF851B); /* Red to orange gradient */
+}
+
+#searchtext {
+    display: inline-block;
+    border-radius: 20px;
+    background-image: linear-gradient(to left, #3D9970, #01FF70); /* Green to light green gradient, symbolizing gamma radiation (Hulk) */
+}
+
+.container {
+    color: black;
+    display: inline-block;
+    height: 500px;
+    width: 300px;
+    border: 2px solid red; /* Red border for contrast */
+}
+
+body {
+    background-image: linear-gradient(to left, #B10DC9, #FF4136); /* Purple to red gradient, hinting at the colors of characters like Thanos and Spider-Man */
+}
